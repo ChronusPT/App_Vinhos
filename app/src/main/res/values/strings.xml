@@ -21,5 +21,14 @@
     <string name="nomebranco3">Courela</string>
     <string name="descricaobranco3">Vinho Branco (Reserva) - 0.75cl</string>
     <string name="precobranco3">165 Euros</string>
+    <string name="nomeespirit1">Calavera Negro</string>
+    <string name="descricaoespirit1">Absinto 0.50cl</string>
+    <string name="precoespirit1">3.49 Euros</string>
+    <string name="nomeespirit2">Hennessy V.S</string>
+    <string name="descricaoespirit2">Cognac 0.70cl</string>
+    <string name="precoespirit2">36.95 Euros</string>
+    <string name="nomeespirit3">Legendario Elixir</string>
+    <string name="descricaoespirit3">Rum  0.70cl</string>
+    <string name="precoespirit3">19.49 Euros</string>
 
 </resources>
