@@ -12,5 +12,14 @@
     <string name="nometinto3">Barca Velha</string>
     <string name="descricaotinto3">Vinho Douro 2011 - 0.75cl</string>
     <string name="precotinto3">200 Euros</string>
+    <string name="nomebranco1">Quinta do Castro</string>
+    <string name="descricaobranco1">Vinho branco 0.75cl</string>
+    <string name="precobranco1">8.90 Euros</string>
+    <string name="nomebranco2">Equilibrio</string>
+    <string name="descricaobranco2">Vinho branco Minho 0.75cl</string>
+    <string name="precobranco2">12.75 Euros</string>
+    <string name="nomebranco3">Courela</string>
+    <string name="descricaobranco3">Vinho Branco (Reserva) - 0.75cl</string>
+    <string name="precobranco3">165 Euros</string>
 
 </resources>
