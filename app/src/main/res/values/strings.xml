@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App_Vinhos</string>
+    <string name="bttintos">Tintos</string>
+    <string name="btbrancos">Brancos</string>
+    <string name="btespirituosos">Espirituosos</string>
+    <string name="nometinto1">Trinca Bolotas</string>
+    <string name="descricaotinto1">Vinho tinto 0.75cl</string>
+    <string name="precotinto1">6.20 Euros</string>
+    <string name="nometinto2">Quinta do Vallado</string>
+    <string name="descricaotinto2">Vinho tinto Douro 0.75cl</string>
+    <string name="precotinto2">7.20 Euros</string>
+    <string name="nometinto3">Barca Velha</string>
+    <string name="descricaotinto3">Vinho Douro 2011 - 0.75cl</string>
+    <string name="precotinto3">200 Euros</string>
+
+</resources>
