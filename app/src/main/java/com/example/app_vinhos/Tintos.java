@@ -23,9 +23,11 @@ public class Tintos extends AppCompatActivity {
     private int [] nomesD = new int [] {R.string.nometinto1, R.string.nometinto2, R.string.nometinto3};
     private int [] imagensD = new int [] {R.drawable.tinto1, R.drawable.tinto2, R.drawable.tinto3};
     private int [] precoD = new int [] {R.string.precotinto1, R.string.precotinto2, R.string.precotinto3};
+    private int [] descricaoD = new int [] {R.string.descricaotinto1, R.string.descricaotinto2, R.string.descricaotinto3};
     private int [] nomesA = new int [] {R.string.nometintoA1, R.string.nometintoA2, R.string.nometintoA3};
-    private int [] imagensA = new int [] {R.drawable.tintoA1jpg, R.drawable.tintoA2, R.drawable.tintoA3};
+    private int [] imagensA = new int [] {R.drawable.tinta1, R.drawable.tinta2, R.drawable.tinta3};
     private int [] precoA = new int [] {R.string.precotintoA1, R.string.precotintoA2, R.string.precotintoA3};
+    private int [] descricaoA = new int [] {R.string.descricaotintoA1, R.string.descricaotintoA2, R.string.descricaotintoA3};
 
     // Criar variaveis dos elementos do xml:
     private Spinner sp;
@@ -77,10 +79,31 @@ public class Tintos extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 0){
-                    img1.setImageResource(imagens[0]);
-                    img2.setImageResource(imagens[1]);
-                    img3.setImageResource(imagens[2]);
-
+                    img1.setImageResource(imagensD[0]);
+                    img2.setImageResource(imagensD[1]);
+                    img3.setImageResource(imagensD[2]);
+                    nom1.setText(nomesD[0]);
+                    nom2.setText(nomesD[1]);
+                    nom3.setText(nomesD[2]);
+                    dsc1.setText(descricaoD[0]);
+                    dsc2.setText(descricaoD[1]);
+                    dsc3.setText(descricaoD[2]);
+                    prc1.setText(precoD[0]);
+                    prc2.setText(precoD[1]);
+                    prc3.setText(precoD[2]);
+                }else{
+                    img1.setImageResource(imagensA[0]);
+                    img2.setImageResource(imagensA[1]);
+                    img3.setImageResource(imagensA[2]);
+                    nom1.setText(nomesA[0]);
+                    nom2.setText(nomesA[1]);
+                    nom3.setText(nomesA[2]);
+                    dsc1.setText(descricaoA[0]);
+                    dsc2.setText(descricaoA[1]);
+                    dsc3.setText(descricaoA[2]);
+                    prc1.setText(precoA[0]);
+                    prc2.setText(precoA[1]);
+                    prc3.setText(precoA[2]);
                 }
                 Toast.makeText(Tintos.this, sp.getSelectedItem()+"",Toast.LENGTH_LONG).show();
             }
