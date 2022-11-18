@@ -1,8 +1,10 @@
 package com.example.app_vinhos;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,6 +16,30 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        exibirDialogo();
+    }
+
+    // mensagem de erro :
+
+    private void exibirDialogo() {
+        AlertDialog.Builder msgbox = new AlertDialog.Builder(this);
+        msgbox.setTitle("Verificação de idade legal");
+        msgbox.setIcon(android.R.drawable.ic_menu_info_details);
+        msgbox.setMessage("Tem idade legal para consumir bebidas alcoolicas ? ");
+        msgbox.setPositiveButton("Sim", new DialogInterface.OnClickListener(){
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i){
+
+            }
+        });
+        msgbox.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        msgbox.show();
+
     }
 
     // Incluir o menu na activity :
