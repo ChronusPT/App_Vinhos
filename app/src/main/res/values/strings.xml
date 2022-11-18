@@ -42,5 +42,14 @@
     <string name="precotintoA1">21,50 €</string>
     <string name="precotintoA2">18,50 €</string>
     <string name="precotintoA3">25 €</string>
+    <string name="nomebranca1">Athayde V. Branco</string>
+    <string name="nomebranca2">Baron de B</string>
+    <string name="nomebranca3">Carmim Vinha</string>
+    <string name="descricaobranca1">"Alentejo Reserva garrafa 75 cl "</string>
+    <string name="descricaobranca2">"Alentejo Reserva garrafa 75 cl "</string>
+    <string name="descricaobranca3">"Regional Tarefa garrafa 75 cl "</string>
+    <string name="precobranca1">15,90 €</string>
+    <string name="precobranca2">18,90 €</string>
+    <string name="precobranca3">13,50 €</string>
 
 </resources>

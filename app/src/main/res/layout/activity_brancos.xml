@@ -17,11 +17,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Spinner
-                android:id="@+id/spinner2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
@@ -29,6 +24,11 @@
                 android:text="@string/btbrancos"
                 android:textAlignment="center"
                 android:textSize="16pt" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
             <ImageView
                 android:id="@+id/imageView4"
