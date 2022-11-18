@@ -30,5 +30,8 @@
     <string name="nomeespirit3">Legendario Elixir</string>
     <string name="descricaoespirit3">Rum  0.70cl</string>
     <string name="precoespirit3">19.49 Euros</string>
+    <string name="ctxwllcm">Bem Vindo</string>
+    <string name="ctxTitle">APP Vinhos</string>
+    <string name="xtxTxt">\"Sinta-se à vontade para explorar a nossa seleção de vinhos. \"</string>
 
 </resources>

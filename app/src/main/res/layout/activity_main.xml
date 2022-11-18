@@ -12,6 +12,18 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/winnu"
+        app:srcCompat="@drawable/well"
         tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/ctxTitle"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
