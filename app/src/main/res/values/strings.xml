@@ -33,5 +33,14 @@
     <string name="ctxwllcm">Bem Vindo</string>
     <string name="ctxTitle">APP Vinhos</string>
     <string name="xtxTxt">\"Sinta-se à vontade para explorar a nossa seleção de vinhos. \"</string>
+    <string name="nometintoA1">"A Touriga Vai Nua "</string>
+    <string name="nometintoA2">Abreu Callado</string>
+    <string name="nometintoA3">Adágio</string>
+    <string name="descricaotintoA1">"Vinho Unoaked "</string>
+    <string name="descricaotintoA2">(Reserva)</string>
+    <string name="descricaotintoA3">"Adágio V.Sátiro Clandestino "</string>
+    <string name="precotintoA1">21,50 €</string>
+    <string name="precotintoA2">18,50 €</string>
+    <string name="precotintoA3">25 €</string>
 
 </resources>
