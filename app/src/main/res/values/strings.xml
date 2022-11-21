@@ -54,5 +54,11 @@
     <string name="nomelicor1">94 Anos de História</string>
     <string name="descricaolicor1">"Velhíssima Bairrada 1965 (70 cl) "</string>
     <string name="precolicor1">260 €</string>
+    <string name="nomelicor2">Adega Ponte de Lima</string>
+    <string name="descricaolicor2">"Aguardente  Verde Velhissima garrafa 50 cl "</string>
+    <string name="precolicor2">65,50 €</string>
+    <string name="nomellicor3">Capela de Atela</string>
+    <string name="descricaolicor3">Aguardente Vínica garrafa (70 cl)</string>
+    <string name="precolicor3">310 €</string>
 
 </resources>
