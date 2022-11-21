@@ -148,6 +148,12 @@ public class Brancos extends AppCompatActivity {
             finish();
         }
 
+        if(id == R.id.licores){
+            Intent it = new Intent(Brancos.this,elementos.class);
+            startActivity(it);
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

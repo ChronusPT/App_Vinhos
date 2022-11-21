@@ -50,6 +50,12 @@ public class Espirituosos extends AppCompatActivity {
             finish();
         }
 
+        if(id == R.id.licores){
+            Intent it = new Intent(Espirituosos.this,elementos.class);
+            startActivity(it);
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }

@@ -75,6 +75,12 @@ public class Home extends AppCompatActivity {
             finish();
         }
 
+        if(id == R.id.licores){
+            Intent it = new Intent(Home.this,elementos.class);
+            startActivity(it);
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }
