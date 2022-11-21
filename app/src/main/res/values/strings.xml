@@ -61,5 +61,6 @@
     <string name="descricaolicor3">Aguardente Vínica garrafa (70 cl)</string>
     <string name="precolicor3">310 €</string>
     <string name="btnlicores">Licores</string>
+    <string name="ctxTitulo">Licores</string>
 
 </resources>
